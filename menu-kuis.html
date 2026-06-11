@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu Kuis - Belajar Matematika SD</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#f4f6f9;
+}
+
+header{
+    background:#1565c0;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+nav{
+    background:#0d47a1;
+    text-align:center;
+    padding:12px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+.container{
+    max-width:1100px;
+    margin:auto;
+    padding:30px 20px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 3px 10px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-4px);
+}
+
+.button{
+    display:inline-block;
+    margin-top:15px;
+    background:#1565c0;
+    color:white;
+    text-decoration:none;
+    padding:10px 18px;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+.button:hover{
+    background:#0d47a1;
+}
+
+footer{
+    margin-top:40px;
+    background:#0d47a1;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>📝 Menu Kuis Matematika</h1>
+    <p>Pilih tema kuis yang ingin dikerjakan.</p>
+</header>
+
+<nav>
+    <a href="index.html">🏠 Home</a>
+    <a href="materi.html">📚 Materi</a>
+    <a href="menu-kuis.html">📝 Kuis</a>
+    <a href="tentang.html">ℹ️ Tentang</a>
+</nav>
+
+<div class="container">
+
+<div class="grid">
+
+<div class="card">
+<h2>🔢 Bilangan</h2>
+<p>Latihan soal tentang bilangan dan operasi dasar.</p>
+<a class="button" href="daftar-kuis-bilangan.html">Buka Kuis</a>
+</div>
+
+<div class="card">
+<h2>➕ Operasi Hitung</h2>
+<p>Uji kemampuan penjumlahan, pengurangan, perkalian, dan pembagian.</p>
+<a class="button" href="daftar-kuis-operasi.html">Buka Kuis</a>
+</div>
+
+<div class="card">
+<h2>➗ Pecahan</h2>
+<p>Latihan soal pecahan dengan tingkat kesulitan bertahap.</p>
+<a class="button" href="daftar-kuis-pecahan.html">Buka Kuis</a>
+</div>
+
+<div class="card">
+<h2>📐 Bangun Datar</h2>
+<p>Kerjakan soal luas, keliling, dan sifat bangun datar.</p>
+<a class="button" href="daftar-kuis-bangun-datar.html">Buka Kuis</a>
+</div>
+
+<div class="card">
+<h2>📏 Pengukuran</h2>
+<p>Asah kemampuan tentang panjang, berat, waktu, dan satuan.</p>
+<a class="button" href="daftar-kuis-pengukuran.html">Buka Kuis</a>
+</div>
+
+<div class="card">
+<h2>📊 Penyajian Data</h2>
+<p>Pelajari cara membaca tabel dan diagram melalui latihan.</p>
+<a class="button" href="daftar-kuis-data.html">Buka Kuis</a>
+</div>
+
+</div>
+
+</div>
+
+<footer>
+    © 2026 Belajar Matematika SD
+</footer>
+
+</body>
+</html>
